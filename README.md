@@ -1,0 +1,57 @@
+# DevOps Working Group
+
+This is where the Open edX DevOps working group gathers to work on all matters related to the technical operations of an Open edX platform, both in development and in production.
+
+This working group is in close cooperation with the [Build/Test/Release](https://openedx.atlassian.net/wiki/spaces/COMM/pages/1022099494/Build-Test-Release+Working+Group) and the [Developer Experience](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3583016961/Developer+Experience+Working+Group) working groups (see below). Issues related to their area of expertise are dispatched to them. Other issues are processed right here in this project.
+
+## Useful links
+
+- Communication:
+    - The Open edX forum [DevOps working group category](https://discuss.openedx.org/c/working-groups/devops), which is the primary communication channel for this working group. Members are encouraged to subscribe to the notifications for this category ("Watch first post").
+    - The [Build/Test/Release](https://discuss.openedx.org/c/working-groups/build-test-release) and [Developer Experience](https://discuss.openedx.org/c/working-groups/dev-experience) working group forum categories.
+    - We also use Slack for quick one-off Q&A: see the #wg-devops, #wg-build-test-release, #wg-developer-experience channels (if you're not already on the Open edX Slack read [this](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#slack)). Slack is great for talking to individual people, but most in-depth conversations should happen on the forum.
+- Issue management and project boards:
+    - [DevOps working group](https://github.com/orgs/openedx/projects/42)
+    - [Build/Test/Release working group](https://github.com/orgs/openedx/projects/28/views/15)
+    - [Developer Experience working group](https://github.com/orgs/openedx/projects/37)
+- General information and Confluence workspaces:
+    - [DevOps working group workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3620044867/DevOps+Working+Group) (we try to use it as little as possible and keep most of the information in the forum or in this GitHub project)
+    - [Build/Test/Release workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/1022099494/Build-Test-Release+Working+Group)
+    - [Developer Experience workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3583016961/Developer+Experience+Working+Group)
+    - List of all [Open edX working groups](https://openedx.atlassian.net/wiki/spaces/COMM/pages/46793351/Open+edX+Working+Groups)
+
+## Contributing
+
+### How to join the working group?
+
+We're glad you want to help :) Working group membership is fluid, which means that if you help the group then you are considered a member. All members are strongly encouraged to join the conversation (see the links above). You can reply to an existing topic or write a new topic where you introduce yourself and describe how you would like to help. Welcome!
+
+### How to report an issue?
+
+Would you like to report a devops-related issue? First, check whether the issue was already reported elsewhere:
+
+- Search the [Open edX forum](https://discuss.openedx.org).
+- Search the existing issues in this project and eventually the [Build/Test/Release](https://github.com/openedx/build-test-release-wg/issues/) or the [Developer experience](https://github.com/openedx/wg-developer-experience/issues) list of issues.
+
+If your issue was already reported, feel free to join the conversation! If your issue is new, then you are strongly encouraged to discuss it in the forum first. You should strive to describe your issue as thoroughly as possible:
+
+- Nobody likes one-line issues! As a rule of thumb, you should expect that other contributors will not put in more work to resolve your issue than you did in describing it.
+- Include a precise description of the context in which the error is occurring: what command are you running? What is the url of the page that is crashing?
+- Describe the problem precisely: include any error log, stacktrace and browser screenshots. As far as possible, use copy-pasted text instead of screenshots for errors.
+- What version of Open edX/Tutor are you running? Are any plugins enabled?
+- If relevant, post your OS and browser versions.
+- Add your forum topic to the "working groups -> DevOps" forum subcategory such that other members of the group receive a notification.
+
+If you are positive that the issue is relevant for many Open edX users, then you can open a [GitHub issue](https://github.com/openedx/wg-devops/issues). The same recommendations above apply.
+
+### How to get started fixing issues?
+
+Awesome! Have a look at the following issues:
+
+- DevOps ["Good first issues"](https://github.com/openedx/wg-devops/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue)
+- Build/Test/Release [bugs](https://github.com/openedx/build-test-release-wg/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+- Developer Experience ["Good first issues"](https://github.com/openedx/wg-developer-experience/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue)
+
+Also, read the Open edX [CONTRIBUTING.rst](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst) document.
+
+We're happy to have you on board :)
