@@ -2,23 +2,37 @@
 
 This is where the Open edX DevOps working group gathers to work on all matters related to the technical operations of an Open edX platform, both in development and in production.
 
-This working group is in close cooperation with the [Build/Test/Release](https://openedx.atlassian.net/wiki/spaces/COMM/pages/1022099494/Build-Test-Release+Working+Group) and the [Developer Experience](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3583016961/Developer+Experience+Working+Group) working groups (see below). Issues related to their area of expertise are dispatched to them. Other issues are processed right here in this project.
+The DevOps working group is an umbrella for multiple, more specific projects. See the full list below.
 
 ## Useful links
 
 - Communication:
     - The Open edX forum [DevOps working group category](https://discuss.openedx.org/c/working-groups/devops), which is the primary communication channel for this working group. Members are encouraged to subscribe to the notifications for this category ("Watch first post").
-    - The [Build/Test/Release](https://discuss.openedx.org/c/working-groups/build-test-release) and [Developer Experience](https://discuss.openedx.org/c/working-groups/dev-experience) working group forum categories.
-    - We also use Slack for quick one-off Q&A: see the #wg-devops, #wg-build-test-release, #wg-developer-experience channels (if you're not already on the Open edX Slack read [this](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#slack)). Slack is great for talking to individual people, but most in-depth conversations should happen on the forum.
-- Issue management and project boards:
-    - [DevOps working group](https://github.com/orgs/openedx/projects/42)
-    - [Build/Test/Release working group](https://github.com/orgs/openedx/projects/28/views/15)
-    - [Developer Experience working group](https://github.com/orgs/openedx/projects/37)
+    - We also use Slack for quick one-off Q&A: see the #wg-devops (if you're not already on the Open edX Slack read [this](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#slack)). Slack is great for talking to individual people, but most in-depth conversations should happen on the forum.
+- Issue management: we use this [project board](https://github.com/orgs/openedx/projects/42)
 - General information and Confluence workspaces:
     - [DevOps working group workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3620044867/DevOps+Working+Group) (we try to use it as little as possible and keep most of the information in the forum or in this GitHub project)
-    - [Build/Test/Release workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/1022099494/Build-Test-Release+Working+Group)
-    - [Developer Experience workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3583016961/Developer+Experience+Working+Group)
     - List of all [Open edX working groups](https://openedx.atlassian.net/wiki/spaces/COMM/pages/46793351/Open+edX+Working+Groups)
+
+## Projects
+
+### Build/Test/Release working group
+
+- General information: [Build/Test/Release workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/1022099494/Build-Test-Release+Working+Group)
+- Communication: [Build/Test/Release](https://discuss.openedx.org/c/working-groups/build-test-release) working group forum category and #wg-build-test-release Slack channel.
+- Issue management: [project board](https://github.com/orgs/openedx/projects/28/views/15)
+
+### Developer Experience working group
+
+- General information: [Developer Experience workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3583016961/Developer+Experience+Working+Group)
+- Communication: [Developer Experience](https://discuss.openedx.org/c/working-groups/dev-experience) working group forum category and #wg-developer-experience Slack channel.
+- Issue management: [Developer Experience working group](https://github.com/orgs/openedx/projects/37)
+
+### Open edX deployment with Helm
+
+- Original discussion: https://discuss.openedx.org/t/deploying-open-edx-on-kubernetes-using-helm/8771/6
+- Implementation as a Tutor plugin: [tutor-contrib-multi](https://github.com/openedx/tutor-contrib-multi)
+- List of open issues: https://github.com/openedx/tutor-contrib-multi/issues
 
 ## Contributing
 
@@ -31,7 +45,7 @@ We're glad you want to help :) Working group membership is fluid, which means th
 Would you like to report a devops-related issue? First, check whether the issue was already reported elsewhere:
 
 - Search the [Open edX forum](https://discuss.openedx.org).
-- Search the existing issues in this project and eventually the [Build/Test/Release](https://github.com/openedx/build-test-release-wg/issues/) or the [Developer experience](https://github.com/openedx/wg-developer-experience/issues) list of issues.
+- Search the existing issues in this project and the relevant child projects (see links above).
 
 If your issue was already reported, feel free to join the conversation! If your issue is new, then you are strongly encouraged to discuss it in the forum first. You should strive to describe your issue as thoroughly as possible:
 
