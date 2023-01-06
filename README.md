@@ -28,6 +28,16 @@ The DevOps working group is an umbrella for multiple, more specific projects. Se
 - Communication: [Developer Experience](https://discuss.openedx.org/c/working-groups/dev-experience) working group forum category and #wg-developer-experience Slack channel.
 - Issue management: [Developer Experience working group](https://github.com/orgs/openedx/projects/37)
 
+### Tutor
+
+Tutor is the default community distribution to run Open edX, both as a development environment and a production platform, using either docker-compose or Kubernetes. The Tutor code base is split into Tutor core and the official plugins.
+
+- Tutor core source code: https://github.com/overhangio/tutor/
+- [Documentation](https://docs.tutor.overhang.io/)
+- [Project board](https://github.com/orgs/overhangio/projects/4)
+- Tutor-related questions are tagged with "tutor" on the forum: https://discuss.openedx.org/tag/tutor
+- Become a [Tutor maintainer](https://discuss.openedx.org/t/tutor-maintainers/7287)
+
 ### Open edX deployment with Helm
 
 - Original discussion: https://discuss.openedx.org/t/deploying-open-edx-on-kubernetes-using-helm/8771/6
@@ -62,10 +72,10 @@ If you are positive that the issue is relevant for many Open edX users, then you
 
 Awesome! Have a look at the following issues:
 
-- DevOps ["Good first issues"](https://github.com/openedx/wg-devops/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue)
+- DevOps ["good first issues"](https://github.com/openedx/wg-devops/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue)
 - Build/Test/Release [bugs](https://github.com/openedx/build-test-release-wg/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
-- Developer Experience ["Good first issues"](https://github.com/openedx/wg-developer-experience/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue)
-
+- Developer Experience ["good first issues"](https://github.com/openedx/wg-developer-experience/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue)
+- Tutor ["good first issues"](https://github.com/orgs/overhangio/projects/4/views/1?filterQuery=-label%3A%22good+first+issue%22) (check the "Backlog" column)
 Also, read the Open edX [CONTRIBUTING.rst](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst) document.
 
 We're happy to have you on board :)
