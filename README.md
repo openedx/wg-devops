@@ -8,7 +8,7 @@ The DevOps working group is an umbrella for multiple, more specific projects. Se
 
 - Communication:
     - The Open edX forum [DevOps working group category](https://discuss.openedx.org/c/working-groups/devops), which is the primary communication channel for this working group. Members are encouraged to subscribe to the notifications for this category ("Watch first post").
-    - We also use Slack for quick one-off Q&A: see the #wg-devops (if you're not already on the Open edX Slack read [this](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#slack)). Slack is great for talking to individual people, but most in-depth conversations should happen on the forum.
+    - We also use Slack for quick one-off Q&A: see the #wg-devops (if you're not already on the Open edX Slack read [this](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#slack)). Slack is great for talking to individual people, but most in-depth conversations should happen on the forum or on repository tickets.
 - Issue management: we use this [project board](https://github.com/orgs/openedx/projects/42)
 - General information and Confluence workspaces:
     - [DevOps working group workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3620044867/DevOps+Working+Group) (we try to use it as little as possible and keep most of the information in the forum or in this GitHub project)
@@ -28,6 +28,14 @@ The DevOps working group is an umbrella for multiple, more specific projects. Se
 - Communication: [Developer Experience](https://discuss.openedx.org/c/working-groups/dev-experience) working group forum category and #wg-developer-experience Slack channel.
 - Issue management: [Developer Experience working group](https://github.com/orgs/openedx/projects/37)
 
+### Large Instances working group
+
+- General information: [Large Instances workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3655008783/Large+Instances+-+DevOps+Sub-Working+Group)
+- Communication: [bi-weekly meeting](https://discuss.openedx.org/t/deploying-open-edx-on-kubernetes-using-helm/8771), [DevOps](https://discuss.openedx.org/c/operators/7) forum category, [#wg-devops](https://openedx.slack.com/channels/wg-devops) Slack channel.
+- Issue management: [Large Instances working group](https://github.com/orgs/openedx/projects/42/views/2)
+
+This group leads the Harmony Kubernetes project, used to deploy Open edX via Helm & Tutor: https://github.com/openedx/tutor-contrib-multi
+
 ### Tutor
 
 Tutor is the default community distribution to run Open edX, both as a development environment and a production platform, using either docker-compose or Kubernetes. The Tutor code base is split into Tutor core and the official plugins.
@@ -37,12 +45,6 @@ Tutor is the default community distribution to run Open edX, both as a developme
 - [Project board](https://github.com/orgs/overhangio/projects/4)
 - Tutor-related questions are tagged with "tutor" on the forum: https://discuss.openedx.org/tag/tutor
 - Become a [Tutor maintainer](https://discuss.openedx.org/t/tutor-maintainers/7287)
-
-### Open edX deployment with Helm
-
-- Original discussion: https://discuss.openedx.org/t/deploying-open-edx-on-kubernetes-using-helm/8771/6
-- Implementation as a Tutor plugin: [tutor-contrib-multi](https://github.com/openedx/tutor-contrib-multi)
-- List of open issues: https://github.com/openedx/tutor-contrib-multi/issues
 
 ## Contributing
 
@@ -75,6 +77,7 @@ Awesome! Have a look at the following issues:
 - DevOps ["good first issues"](https://github.com/openedx/wg-devops/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue)
 - Build/Test/Release [bugs](https://github.com/openedx/build-test-release-wg/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 - Developer Experience ["good first issues"](https://github.com/openedx/wg-developer-experience/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue)
+- Large Instances ["good first issues"](https://github.com/orgs/openedx/projects/42/views/3)
 - Tutor ["good first issues"](https://github.com/orgs/overhangio/projects/4/views/1?filterQuery=-label%3A%22good+first+issue%22) (check the "Backlog" column)
 Also, read the Open edX [CONTRIBUTING.rst](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst) document.
 
