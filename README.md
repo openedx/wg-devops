@@ -34,7 +34,7 @@ The DevOps working group is an umbrella for multiple, more specific projects. Se
 - Communication: [bi-weekly meeting](https://discuss.openedx.org/t/deploying-open-edx-on-kubernetes-using-helm/8771), [DevOps](https://discuss.openedx.org/c/operators/7) forum category, [#wg-devops](https://openedx.slack.com/channels/wg-devops) Slack channel.
 - Issue management: [Large Instances working group](https://github.com/orgs/openedx/projects/42/views/2)
 
-This group leads the Harmony Kubernetes project, used to deploy Open edX via Helm & Tutor: https://github.com/openedx/tutor-contrib-multi
+This group leads the Harmony Kubernetes project, used to deploy Open edX via Helm & Tutor: https://github.com/openedx/openedx-k8s-harmony
 
 ### Tutor
 
