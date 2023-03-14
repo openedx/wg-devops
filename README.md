@@ -8,7 +8,7 @@ The DevOps working group is an umbrella for multiple, more specific projects. Se
 
 - Communication:
     - The Open edX forum [DevOps working group category](https://discuss.openedx.org/c/working-groups/devops), which is the primary communication channel for this working group. Members are encouraged to subscribe to the notifications for this category ("Watch first post").
-    - We also use Slack for quick one-off Q&A: see the #wg-devops (if you're not already on the Open edX Slack read [this](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#slack)). Slack is great for talking to individual people, but most in-depth conversations should happen on the forum or on repository tickets.
+    - We also use Slack for quick one-off Q&A: see the [#wg-devops](https://app.slack.com/client/T02SNA1T6/C04J9GTLHH8) channel (if you're not already on the Open edX Slack read [this](https://github.com/openedx/edx-platform/blob/master/CONTRIBUTING.rst#slack)). Slack is great for talking to individual people, but most in-depth conversations should happen on the forum or on repository tickets.
 - Issue management: we use this [project board](https://github.com/orgs/openedx/projects/42)
 - General information and Confluence workspaces:
     - [DevOps working group workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3620044867/DevOps+Working+Group) (we try to use it as little as possible and keep most of the information in the forum or in this GitHub project)
