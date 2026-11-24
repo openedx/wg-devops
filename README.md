@@ -22,12 +22,6 @@ The DevOps working group is an umbrella for multiple, more specific projects. Se
 - Communication: [Build/Test/Release](https://discuss.openedx.org/c/working-groups/build-test-release) working group forum category and #wg-build-test-release Slack channel.
 - Issue management: [project board](https://github.com/orgs/openedx/projects/28/views/15)
 
-### Developer Experience working group
-
-- General information: [Developer Experience workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3583016961/Developer+Experience+Working+Group)
-- Communication: [Developer Experience](https://discuss.openedx.org/c/working-groups/dev-experience) working group forum category and #wg-developer-experience Slack channel.
-- Issue management: [Developer Experience working group](https://github.com/orgs/openedx/projects/37)
-
 ### Large Instances working group
 
 - General information: [Large Instances workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3655008783/Large+Instances+-+DevOps+Sub-Working+Group)
@@ -36,14 +30,18 @@ The DevOps working group is an umbrella for multiple, more specific projects. Se
 
 This group leads the Harmony Kubernetes project, used to deploy Open edX via Helm & Tutor: https://github.com/openedx/openedx-k8s-harmony
 
-### Tutor
+### Tutor Users' Group
+
+- General information: [Tutor Users' Group workspace](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3583016961/Tutor+Users+Group)
+- Communication: ["tutor" tag](https://discuss.openedx.org/tag/tutor) on the forum and [#tutor-maintenance](https://openedx.slack.com/channels/tutor-maintenance) Slack channel.
+
+#### Tutor
 
 Tutor is the default community distribution to run Open edX, both as a development environment and a production platform, using either docker-compose or Kubernetes. The Tutor code base is split into Tutor core and the official plugins.
 
 - Tutor core source code: https://github.com/overhangio/tutor/
 - [Documentation](https://docs.tutor.overhang.io/)
 - [Project board](https://github.com/orgs/overhangio/projects/4)
-- Tutor-related questions are tagged with "tutor" on the forum: https://discuss.openedx.org/tag/tutor
 - Become a [Tutor maintainer](https://discuss.openedx.org/t/tutor-maintainers/7287)
 
 ## Contributing
